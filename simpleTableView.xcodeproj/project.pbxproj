@@ -15,6 +15,8 @@
 		82B84A1023337701008B6118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B84A0E23337701008B6118 /* LaunchScreen.storyboard */; };
 		82B84A1B23337701008B6118 /* simpleTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B84A1A23337701008B6118 /* simpleTableViewTests.swift */; };
 		82B84A2623337701008B6118 /* simpleTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B84A2523337701008B6118 /* simpleTableViewUITests.swift */; };
+		82B84A3423338977008B6118 /* Background (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82B84A3323338977008B6118 /* Background (1).jpeg */; };
+		82B84A3623338997008B6118 /* Background (2).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82B84A3523338997008B6118 /* Background (2).jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		82B84A2123337701008B6118 /* simpleTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpleTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B84A2523337701008B6118 /* simpleTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleTableViewUITests.swift; sourceTree = "<group>"; };
 		82B84A2723337701008B6118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82B84A3323338977008B6118 /* Background (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Background (1).jpeg"; path = "../../../Background (1).jpeg"; sourceTree = "<group>"; };
+		82B84A3523338997008B6118 /* Background (2).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Background (2).jpeg"; path = "../../../Background (2).jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				82B84A0223337701008B6118 /* AppDelegate.swift */,
 				82B84A0423337701008B6118 /* ViewController.swift */,
 				82B84A0623337701008B6118 /* Main.storyboard */,
+				82B84A3523338997008B6118 /* Background (2).jpeg */,
 				82B84A0C23337701008B6118 /* Assets.xcassets */,
+				82B84A3323338977008B6118 /* Background (1).jpeg */,
 				82B84A0E23337701008B6118 /* LaunchScreen.storyboard */,
 				82B84A1123337701008B6118 /* Info.plist */,
 				82B84A0923337701008B6118 /* simpleTableView.xcdatamodeld */,
@@ -236,6 +242,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				82B84A1023337701008B6118 /* LaunchScreen.storyboard in Resources */,
+				82B84A3423338977008B6118 /* Background (1).jpeg in Resources */,
+				82B84A3623338997008B6118 /* Background (2).jpeg in Resources */,
 				82B84A0D23337701008B6118 /* Assets.xcassets in Resources */,
 				82B84A0823337701008B6118 /* Main.storyboard in Resources */,
 			);

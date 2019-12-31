@@ -8,8 +8,30 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController , UITableViewDataSource,UITableViewDelegate{
+    let cellidentifier = "mycell"
+    let ImageArray  = ["Background","Background (1)","Background (2)"] 
+    
+    @IBOutlet weak var imgView: UIImageView!
+    var techNames = ["ios","Andriod","ASP.Net","PHP","JAVA"]
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return ImageArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellidentifier, for: indexPath)
+        cell.textLabel?.text = ImageArray[indexPath.row]
+        return cell
+        
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        imgView.image = UIImage(named:ImageArray[indexPath.row])
+    }
 
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
